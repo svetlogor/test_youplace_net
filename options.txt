@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Desktop\test_youplace_net
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\user\desktop\test_youplace_net\\logfile.log
+c:\users\user\desktop\test_youplace_net\\combined_test_youplace_net.c
+c:\users\user\desktop\test_youplace_net\\pre_cci.c

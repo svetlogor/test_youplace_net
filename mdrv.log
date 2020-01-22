@@ -1,0 +1,229 @@
+Virtual User Script started at: 22.01.2020 19:34:57
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\User\Desktop\test_youplace_net\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(107): web_url("test.youplace.net") started  	[MsgId: MMSG-26355]
+Action.c(107): web_url("test.youplace.net") was successful, 1375 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
+Action.c(137): Question 1
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(150): Notify: Transaction "Start Button" started.
+Action.c(152): web_link("Start test") started  	[MsgId: MMSG-26355]
+Action.c(152): Linking to "http://test.youplace.net/question/1", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(152): Warning -35048: No match found for the requested parameter "RadioNames". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(152): Warning -35048: No match found for the requested parameter "RadioValues". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(152): web_link("Start test") highest severity level was "warning", 1533 body bytes, 157 header bytes  	[MsgId: MMSG-26388]
+Action.c(155): Notify: Transaction "Start Button" ended with a "Pass" status (Duration: 0.0696 Wasted Time: 0.0090).
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0.1534).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0.3613).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0.0677).
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(335): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(335): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(340): web_submit_form("Question") started  	[MsgId: MMSG-26355]
+Action.c(340): Submitting form to "http://test.youplace.net/question/1", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(340): Redirecting "http://test.youplace.net/question/1" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(340): To location "http://test.youplace.net/question/2"  	[MsgId: MMSG-26693]
+Action.c(340): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(340): web_submit_form("Question") was successful, 2062 body bytes, 303 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(137): Question 2
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0.9317).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0.6123).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0.0278).
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(335): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(335): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(340): web_submit_form("Question") started  	[MsgId: MMSG-26355]
+Action.c(340): Submitting form to "http://test.youplace.net/question/2", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(340): Redirecting "http://test.youplace.net/question/2" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(340): To location "http://test.youplace.net/question/3"  	[MsgId: MMSG-26693]
+Action.c(340): Warning -35048: No match found for the requested parameter "RadioNames". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Warning -35048: No match found for the requested parameter "RadioValues". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(340): web_submit_form("Question") highest severity level was "warning", 1773 body bytes, 297 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Question 3
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0.1654).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0.6184).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0.0277).
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(335): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(335): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(340): web_submit_form("Question") started  	[MsgId: MMSG-26355]
+Action.c(340): Submitting form to "http://test.youplace.net/question/3", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(340): Redirecting "http://test.youplace.net/question/3" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(340): To location "http://test.youplace.net/question/4"  	[MsgId: MMSG-26693]
+Action.c(340): Warning -35048: No match found for the requested parameter "RadioNames". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Warning -35048: No match found for the requested parameter "RadioValues". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(340): web_submit_form("Question") highest severity level was "warning", 1813 body bytes, 297 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Question 4
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0,1692).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0,6322).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0,0278).
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(335): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(335): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(340): web_submit_form("Question") started  	[MsgId: MMSG-26355]
+Action.c(340): Submitting form to "http://test.youplace.net/question/4", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(340): Redirecting "http://test.youplace.net/question/4" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(340): To location "http://test.youplace.net/question/5"  	[MsgId: MMSG-26693]
+Action.c(340): Warning -35048: No match found for the requested parameter "inputTexts". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(340): web_submit_form("Question") highest severity level was "warning", 1612 body bytes, 297 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Question 5
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0,5826).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0,3794).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0,0077).
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(335): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(335): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(340): web_submit_form("Question") started  	[MsgId: MMSG-26355]
+Action.c(340): Submitting form to "http://test.youplace.net/question/5", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(340): Redirecting "http://test.youplace.net/question/5" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(340): To location "http://test.youplace.net/question/6"  	[MsgId: MMSG-26693]
+Action.c(340): Warning -35048: No match found for the requested parameter "inputTexts". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(340): web_submit_form("Question") highest severity level was "warning", 1602 body bytes, 297 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Question 6
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0.5682).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0.3830).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0.0073).
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(335): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(335): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(340): web_submit_form("Question") started  	[MsgId: MMSG-26355]
+Action.c(340): Submitting form to "http://test.youplace.net/question/6", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(340): Redirecting "http://test.youplace.net/question/6" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(340): To location "http://test.youplace.net/question/7"  	[MsgId: MMSG-26693]
+Action.c(340): Warning -35048: No match found for the requested parameter "inputTexts". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Registered web_reg_find successful for "Text=Test successfully passed"  	[MsgId: MMSG-26362]
+Action.c(340): web_submit_form("Question") highest severity level was "warning", 1824 body bytes, 297 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Question 7
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0.9324).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0.4042).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0.0076).
+Action.c(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(335): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(335): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(340): web_submit_form("Question") started  	[MsgId: MMSG-26355]
+Action.c(340): Submitting form to "http://test.youplace.net/question/7", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(340): Warning -35048: No match found for the requested parameter "RadioNames". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Warning -35048: No match found for the requested parameter "RadioValues". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Warning -35048: No match found for the requested parameter "SelectsName". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Warning -35048: No match found for the requested parameter "SelectsValue". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Warning -35048: No match found for the requested parameter "inputTexts". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
+Action.c(340): Registered web_reg_find successful for "Text=Test successfully passed" (count=2)  	[MsgId: MMSG-26364]
+Action.c(340): web_submit_form("Question") highest severity level was "warning", 149 body bytes, 156 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Question 8
+Action.c(161): Notify: Transaction "Search Radio" started.
+Action.c(238): Notify: Transaction "Search Radio" ended with a "Pass" status (Duration: 0.1613).
+Action.c(241): Notify: Transaction "Search Select" started.
+Action.c(299): Notify: Transaction "Search Select" ended with a "Pass" status (Duration: 0.1553).
+Action.c(301): Notify: Transaction "Search Text" started.
+Action.c(312): Notify: Transaction "Search Text" ended with a "Pass" status (Duration: 0.0079).
+Action.c(319): Test successfully passed
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
